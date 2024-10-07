@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar'; // Adicione isso
+import Navbar from './components/Navbar'; 
 import Hero from './components/Hero';
 import About from './components/About';
 import Service from './components/Service';
@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <Navbar /> {/* Navbar da página principal */}
+      <Navbar /> {}
       <Hero />
       <About />
       <Service />

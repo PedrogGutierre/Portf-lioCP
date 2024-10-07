@@ -1,6 +1,6 @@
 import React from "react";
-import LifeOcean from "../assets/LifeOcean.png"; // Verifique se o caminho está correto
-import bookMSImage from "../assets/ProjetoGTA.png"; // Verifique se o caminho está correto
+import LifeOcean from "../assets/LifeOcean.png";
+import bookMSImage from "../assets/ProjetoGTA.png"; 
 
 const projects = [
   {

@@ -21,7 +21,6 @@ const Contact = () => {
     console.log('Nome:', formData.name);
     console.log('Email:', formData.email);
     console.log('Mensagem:', formData.message);
-    // Aqui você poderia limpar o formulário, se desejar
     setFormData({ name: '', email: '', message: '' });
   };
 
