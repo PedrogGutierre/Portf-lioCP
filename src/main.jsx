@@ -1,19 +1,23 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import App from './App.jsx';
-import Projects from './components/Projects'; // Não remova isso
-import './index.css';
+import * as React from "react";
+import * as ReactDOM from "react-dom/client";
+import { createHashRouter, RouterProvider } from "react-router-dom";
+import App from "./App";
+import Projects from "./components/Projects";
+import "./index.css";
 
-const root = createRoot(document.getElementById('root'));
+const router = createHashRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/projects",
+    element: <Projects />,
+  },
+]);
 
-root.render(
-  <StrictMode>
-    <Router basename="/Portfolio">
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </Router>
-  </StrictMode>,
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
