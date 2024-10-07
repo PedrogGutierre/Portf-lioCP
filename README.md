@@ -1,11 +1,7 @@
-Aqui está o README com base na descrição que você forneceu:
-
----
 
 # Meu Portfólio
 
 Bem-vindo ao meu portfólio! Este projeto apresenta uma coleção de projetos que desenvolvi, utilizando as mais recentes tecnologias e práticas de desenvolvimento web.
-
 
 ## 📝 Descrição do Projeto
 
@@ -28,11 +24,11 @@ Este portfólio é uma vitrine dos meus trabalhos em desenvolvimento web, demons
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-portifolio.git
+   git clone https://github.com/seu-usuario/portfoliocp.git
    ```
 2. Navegue até a pasta do projeto:
    ```bash
-   cd seu-portifolio
+   cd portfoliocp/Portfolio
    ```
 3. Instale as dependências:
    ```bash
@@ -46,5 +42,3 @@ Este portfólio é uma vitrine dos meus trabalhos em desenvolvimento web, demons
 Após seguir os passos, o projeto estará disponível localmente e acessível no navegador.
 
 ---
-
-Esse README fornece uma introdução clara ao portfólio, destacando as tecnologias e instruções de execução.
